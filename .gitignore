@@ -25,6 +25,7 @@ dist-ssr
 
 # Local Claude settings (not shared)
 .claude/
+CLAUDE.md
 
 # Generated furniture assets — rebuilt by `npm run copy-assets` (predev/prebuild).
 # Source of truth is Assets/gltf/, which stays tracked.
