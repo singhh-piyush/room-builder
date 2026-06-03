@@ -31,4 +31,3 @@ npm run test     # unit tests
 - 3D and 2D views, a custom accent color, and JSON export/import.
 - Works on desktop, tablet, and mobile.
 
-See `CLAUDE.md` for how the code is organized and the key design decisions.
