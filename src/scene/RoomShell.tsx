@@ -39,7 +39,7 @@ export function RoomShell({ room, flat = false }: Props) {
         position={[L / 2, 0.005, W / 2]}
       />
 
-      {!flat && (
+      {!flat && H > 0 && (
         <>
           {/* Back wall (z = 0) — the "longest wall" the bed sits against. */}
           <mesh position={[L / 2, H / 2, -WALL_T / 2]} receiveShadow>
