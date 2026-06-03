@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Claude settings (not shared)
+.claude/
+
+# Generated furniture assets — rebuilt by `npm run copy-assets` (predev/prebuild).
+# Source of truth is Assets/gltf/, which stays tracked.
+public/assets/furniture-bits/
+
+# Unused source asset formats — the web app only uses Assets/gltf/.
+Assets/fbx*
+Assets/obj/
+Assets/texture/
