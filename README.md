@@ -9,7 +9,7 @@ JSON.
 Built with React, TypeScript, Three.js, and React Three Fiber. Furniture is the
 KayKit "Furniture Bits" low-poly pack.
 
-![demo](docs/demo.png)
+![demo](docs/demo1.png)
 
 ## Run it
 
